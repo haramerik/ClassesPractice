@@ -9,16 +9,14 @@ package com.mycompany.classespractice;
  *
  * @author haramerik
  */
-public class Dog extends Animal {
+public class Cat extends Animal {
     
-    public Dog(String name) {
+    public Cat(String name){
         super(name);
     }
-
     @Override
     public void SayHi() {
-        System.out.println("Woof, " + IntroduceYourSelf());
+        System.out.println("Meow, "+ IntroduceYourSelf());
     }
-    
     
 }

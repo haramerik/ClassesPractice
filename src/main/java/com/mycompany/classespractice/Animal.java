@@ -18,6 +18,10 @@ public class Animal {
     }
     
     public void SayHi() {
-        System.out.println("Hi, my name is " + m_name);
+        System.out.println("Hi, " + IntroduceYourSelf());
+    }
+    
+    protected String IntroduceYourSelf() {
+        return "my name is " + m_name;
     }
 }

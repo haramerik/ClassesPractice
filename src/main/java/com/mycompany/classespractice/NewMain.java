@@ -25,6 +25,10 @@ public class NewMain {
         
         Animal wolfie = new Dog("Wolfie");
         wolfie.SayHi();
+        
+        Animal plori = new Cat("Plori");
+        plori.SayHi();
+        
               
     }
     
