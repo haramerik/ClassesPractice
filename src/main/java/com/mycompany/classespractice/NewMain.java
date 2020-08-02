@@ -29,7 +29,12 @@ public class NewMain {
         Animal plori = new Cat("Plori");
         plori.SayHi();
         
-              
+        Owner Manny = new Owner("Manny");
+        
+        Manny.adopt(amy);
+        Manny.adopt(wolfie);
+        
+        Manny.SayHi();
     }
     
 }
